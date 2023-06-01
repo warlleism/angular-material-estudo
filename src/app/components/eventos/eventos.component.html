@@ -1,0 +1,22 @@
+<br />
+<br />
+<h1>Eventos</h1>
+
+<div>
+  <br />
+  <p *ngIf="show">Exibindo Mensagem!</p>
+  <br />
+  <button (click)="showMenssage()">Clique</button>
+  <br />
+  <br />
+  <p>{{ text1 }}</p>
+  <br />
+  <input type="text" (change)="getEvent($event)" />
+  <br />
+  <br />
+  <p>{{ text2 }}</p>
+  <br />
+  <br />
+  <input type="text" (change)="getEvent2($event)" />
+  <br />
+</div>

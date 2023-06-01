@@ -1,0 +1,17 @@
+<br />
+<br />
+<h1>Services</h1>
+<br />
+<br />
+<button (click)="createNewPost()">Criar</button>
+<br />
+<br />
+<button (click)="updateNewPost()">Editar</button>
+<br />
+<br />
+<button (click)="deleteNewPost()">Deletar</button>
+<br />
+<br />
+<div *ngFor="let post of posts">
+  <div>{{ post.title }}</div>
+</div>

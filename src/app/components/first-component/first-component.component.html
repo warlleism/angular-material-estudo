@@ -1,0 +1,31 @@
+<h2>Meu primeiro component</h2>
+
+<br />
+
+<h1>{{ canShow }}</h1>
+
+<br />
+
+<p *ngIf="canShow == true">Valor atual de teste: {{ canShow }}</p>
+<p *ngIf="canShow == false">A variável teste está vazia: {{ canShow }}</p>
+
+<br />
+
+<p *ngIf="canShow">Valor atual de teste: {{ canShow }}</p>
+<p *ngIf="!canShow">A variável teste está vazia: {{ canShow }}</p>
+
+<br />
+
+<h1>OU assim</h1>
+
+<br />
+
+<p *ngIf="canShow; else valorIsFalse">Valor atual de teste: {{ canShow }}</p>
+<ng-template #valorIsFalse
+  >A variável teste está vazia: {{ canShow }}</ng-template
+>
+
+<br />
+<br />
+
+<button (click)="handlerValue()">trocar</button>

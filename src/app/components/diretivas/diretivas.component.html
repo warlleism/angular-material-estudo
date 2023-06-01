@@ -1,0 +1,6 @@
+<h1 [ngStyle]="{ color: 'red', 'font-size': size + 'px', 'font-famaly': font }">
+  Diretivas de estilo
+</h1>
+<h1 [ngClass]="classes">Diretivas de classe</h1>
+<h1 [ngClass]="boll ? 'black-title' : 'green-title'">Diretivas de classe</h1>
+<button (click)="handlerBoll(!boll)">mudar</button>
