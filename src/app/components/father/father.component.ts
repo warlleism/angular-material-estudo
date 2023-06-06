@@ -6,6 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./father.component.css']
 })
 export class FatherComponent {
+
   constructor() { }
 
   userName: string = 'warlleism'

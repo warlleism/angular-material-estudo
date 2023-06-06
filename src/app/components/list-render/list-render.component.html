@@ -1,0 +1,19 @@
+<br />
+<br />
+<h1>Listagem de dados</h1>
+<br />
+<br />
+<ul>
+  <li *ngFor="let item of lista" (click)="showAnimal(item)">
+    Nome: {{ item.name }} - Tipo: {{ item.type }}
+  </li>
+</ul>
+<br />
+<br />
+
+<p *ngIf="animalDetails; else valorIsFalse">{{ animalDetails }}</p>
+
+<ng-template #valorIsFalse>A variável teste está vazia:</ng-template>
+
+<br />
+<br />

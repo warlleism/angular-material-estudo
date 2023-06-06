@@ -7,6 +7,9 @@ import { ChildComponent } from './components/child/child.component';
 import { DiretivasComponent } from './components/diretivas/diretivas.component';
 import { EventosComponent } from './components/eventos/eventos.component';
 import { ServicesApiComponent } from './components/services-api/services-api.component';
+import { EmiterComponent } from './components/emiter/emiter.component';
+import { ChamgeNumberComponent } from './components/chamge-number/chamge-number.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { ServicesApiComponent } from './components/services-api/services-api.com
     DiretivasComponent,
     EventosComponent,
     ServicesApiComponent,
+    EmiterComponent,
+    ChamgeNumberComponent,
+    ListRenderComponent,
   ],
   imports: [
     BrowserModule
